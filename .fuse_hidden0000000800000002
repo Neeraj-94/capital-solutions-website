@@ -4,36 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cleaning Canberra | Home, Residential &amp; Commercial Cleaning | Capital Solutions</title>
-  <meta name="description" content="Capital Solutions offers professional home, residential and commercial cleaning in Canberra. Trusted domestic cleaners across the ACT - fully insured, police-checked. Free quotes.">
-  <meta name="keywords" content="cleaning Canberra, cleaning in Canberra, home cleaning, home cleaning Canberra, residential cleaning, residential cleaning Canberra, domestic cleaning, domestic cleaning Canberra, house cleaning Canberra, commercial cleaning Canberra, cleaners Canberra, ACT cleaning services">
-  <meta name="robots" content="index, follow">
-  <meta name="geo.region" content="AU-ACT">
-  <meta name="geo.placename" content="Canberra">
-  <link rel="canonical" href="https://capitalsolutions.com.au/">
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Capital Solutions">
-  <meta property="og:locale" content="en_AU">
-  <meta property="og:title" content="Home, Residential &amp; Commercial Cleaning in Canberra | Capital Solutions">
-  <meta property="og:description" content="Professional home, residential and domestic cleaning in Canberra and the ACT. Fully insured, police-checked. Free quotes.">
-  <meta property="og:url" content="https://capitalsolutions.com.au/">
+  <meta name="description" content="Professional residential and commercial cleaning across Canberra. Fully insured, police-checked cleaners. Free quotes.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "CleaningService",
-    "name": "Capital Solutions Pty Ltd",
-    "description": "Professional home, residential, domestic and commercial cleaning in Canberra and the ACT.",
-    "url": "https://capitalsolutions.com.au/",
-    "telephone": "+61457238755",
-    "email": "bhurtel.hari62@gmail.com",
-    "areaServed": { "@type": "City", "name": "Canberra" },
-    "address": { "@type": "PostalAddress", "addressRegion": "ACT", "addressCountry": "AU" },
-    "openingHours": "Mo-Sa 07:00-18:00",
-    "knowsAbout": ["Home cleaning", "Residential cleaning", "Domestic cleaning", "Commercial cleaning", "Office cleaning"]
-  }
-  </script>
 </head>
 <body>
 
@@ -59,9 +33,9 @@
   <canvas id="hero-canvas"></canvas>
   <div class="container">
     <div class="hero-content">
-      <span class="eyebrow">Cleaning in Canberra</span>
+      <span class="eyebrow">Canberra</span>
       <h1>A cleaner space,<br>a <span class="grad-text">brighter day.</span></h1>
-      <p class="lead">Capital Solutions delivers spotless home, residential and commercial cleaning in Canberra and across the ACT — reliable, fully insured, and finished to a standard you can see.</p>
+      <p class="lead">Capital Solutions delivers spotless residential and commercial cleaning across the ACT — reliable, fully insured, and finished to a standard you can see.</p>
       <div class="hero-ctas">
         <a href="contact.html" class="btn btn-primary">Get a Free Quote →</a>
         <a href="services.html" class="btn btn-ghost">Explore Services</a>
@@ -80,7 +54,7 @@
   <div class="container">
     <div class="section-head reveal">
       <span class="eyebrow">What we do</span>
-      <h2>Home &amp; commercial cleaning services in Canberra</h2>
+      <h2>Cleaning services for homes &amp; businesses</h2>
       <p>From weekly home cleans to full commercial contracts, one local team covers it all.</p>
     </div>
     <div class="grid-3">

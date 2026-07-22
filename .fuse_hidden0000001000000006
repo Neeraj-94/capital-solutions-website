@@ -3,19 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cleaning Services Canberra | Home, Residential &amp; Domestic Cleaning | Capital Solutions</title>
-  <meta name="description" content="Home, residential and domestic cleaning services in Canberra - regular cleans, deep cleans, one-off cleans, offices and strata. Fully insured Canberra cleaners.">
-  <meta name="keywords" content="cleaning Canberra, cleaning in Canberra, home cleaning, home cleaning Canberra, residential cleaning, residential cleaning Canberra, domestic cleaning, domestic cleaning Canberra, house cleaning Canberra, commercial cleaning Canberra, cleaners Canberra, ACT cleaning services">
-  <meta name="robots" content="index, follow">
-  <meta name="geo.region" content="AU-ACT">
-  <meta name="geo.placename" content="Canberra">
-  <link rel="canonical" href="https://capitalsolutions.com.au/services.html">
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Capital Solutions">
-  <meta property="og:locale" content="en_AU">
-  <meta property="og:title" content="Cleaning Services Canberra - Home, Residential &amp; Domestic Cleaning">
-  <meta property="og:description" content="Home, residential, domestic and commercial cleaning services in Canberra - regular, deep and one-off cleans.">
-  <meta property="og:url" content="https://capitalsolutions.com.au/services.html">
+  <title>Services | Capital Solutions Pty Ltd — Cleaning Canberra</title>
+  <meta name="description" content="Residential and commercial cleaning services in Canberra — regular cleans, deep cleans, offices, retail and strata.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
@@ -53,7 +42,7 @@
   <div class="container">
     <div class="section-head reveal">
       <span class="eyebrow">🏠 Residential</span>
-      <h2>Home, residential &amp; domestic cleaning</h2>
+      <h2>Home cleaning</h2>
       <p>Come home to a space that feels brand new.</p>
     </div>
     <div class="grid-3">
