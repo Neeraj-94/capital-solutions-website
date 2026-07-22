@@ -70,15 +70,44 @@
     }
   }
 
-  // Quote form (demo handler)
+  // Quote form → emails the request to the business via FormSubmit.
+  // Submits over AJAX so the visitor stays on the page and sees the inline
+  // confirmation. Falls back to a normal POST (form "action") if JS is off.
   var form = document.getElementById('quote-form');
   if (form) {
     form.addEventListener('submit', function (ev) {
       ev.preventDefault();
       var btn = form.querySelector('button[type=submit]');
-      btn.textContent = '✓ Request received — we’ll be in touch!';
-      btn.style.background = '#089890';
+      var original = btn.textContent;
       btn.disabled = true;
+      btn.textContent = 'Sending…';
+
+      var payload = {};
+      new FormData(form).forEach(function (value, key) { payload[key] = value; });
+
+      fetch('https://formsubmit.co/ajax/bhurtel.hari62@gmail.com', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify(payload)
+      })
+        .then(function (res) {
+          if (!res.ok) throw new Error('Bad response');
+          return res.json();
+        })
+        .then(function () {
+          btn.textContent = '✓ Request received — we’ll be in touch!';
+          btn.style.background = '#089890';
+          form.reset();
+        })
+        .catch(function () {
+          btn.disabled = false;
+          btn.textContent = original;
+          var note = form.querySelector('.form-note');
+          if (note) {
+            note.textContent = 'Sorry — we couldn’t send that. Please email bhurtel.hari62@gmail.com directly.';
+            note.style.color = '#c0392b';
+          }
+        });
     });
   }
 })();
