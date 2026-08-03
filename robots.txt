@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://capitalsolutions.org.au/sitemap.xml
+Sitemap: https://capitalsolutionspty.com.au/sitemap.xml
